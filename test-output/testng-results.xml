@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15285" started-at="2020-04-28T00:12:50Z" finished-at="2020-04-28T00:13:05Z">
+  <suite name="Default suite" duration-ms="27060" started-at="2020-04-28T00:56:41Z" finished-at="2020-04-28T00:57:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15285" started-at="2020-04-28T00:12:50Z" finished-at="2020-04-28T00:13:05Z">
-      <class name="com.acti.Base.DriverScript">
-        <test-method status="PASS" signature="initApp()[pri:0, instance:com.acti.Base.DriverScript@1fbc7afb]" name="initApp" duration-ms="15260" started-at="2020-04-28T05:42:50Z" finished-at="2020-04-28T05:43:05Z">
+    <test name="Default test" duration-ms="27060" started-at="2020-04-28T00:56:41Z" finished-at="2020-04-28T00:57:08Z">
+      <class name="com.acti.Testcase.LoginPageTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@7d417077]" name="preTest" is-config="true" duration-ms="22489" started-at="2020-04-28T06:26:41Z" finished-at="2020-04-28T06:27:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initApp -->
-      </class> <!-- com.acti.Base.DriverScript -->
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testValidateLoginFunction1()[pri:4, instance:com.acti.Testcase.LoginPageTest@7d417077]" name="testValidateLoginFunction1" duration-ms="461" started-at="2020-04-28T06:27:03Z" finished-at="2020-04-28T06:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginFunction1 -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@7d417077]" name="postTest" is-config="true" duration-ms="4088" started-at="2020-04-28T06:27:04Z" finished-at="2020-04-28T06:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.acti.Testcase.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
