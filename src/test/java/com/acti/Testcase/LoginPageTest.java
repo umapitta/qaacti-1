@@ -1,11 +1,7 @@
 package com.acti.Testcase;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.acti.Base.DriverScript;
-import com.acti.Pages.LoginPage;
 
 /*
  *  Script: TC-LoginPage
@@ -15,31 +11,10 @@ import com.acti.Pages.LoginPage;
  *  Last Modified: 27/04/2020
  */
 
-public class LoginPageTest extends DriverScript {
+public class LoginPageTest extends BaseTest {
 	
 	
-	LoginPage lp;
-	
-	public LoginPageTest() 
-	{
-		//super keyword is used to call the parent class constructor
-		super();
-	}
-	
-	@BeforeMethod
-	public void preTest()
-	{
-		initApp();
-		lp = new LoginPage();
-	}
-	
-	@AfterMethod
-	public void postTest()
-	{
-		driver.close();
-	}
-	
-/*	@Test(priority=1)
+	@Test(priority=1)
 	public void testVerifyActiLogo()
 	{
 		boolean flag = lp.verifyActiLogo();
@@ -58,7 +33,7 @@ public class LoginPageTest extends DriverScript {
 	public void testValidateLoginFunction()
 	{
 		lp.validateLogin("admin", "manager");
-	}*/
+	}
 	
 	@Test(priority=4)
 	public void testValidateLoginFunction1()

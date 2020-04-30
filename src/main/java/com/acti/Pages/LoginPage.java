@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.acti.Base.DriverScript;
+import com.acti.Utils.Common;
 
 /*
  *  Script: LoginPage
@@ -40,8 +41,11 @@ public class LoginPage extends DriverScript {
 	
 	public void validateLogin(String username, String password)
 	{
+		Common.highLightElement(usernameTb);
 		usernameTb.sendKeys(username);
+		Common.highLightElement(passwordTb);
 		passwordTb.sendKeys(password);
+		Common.highLightElement(loginBtn);
 		loginBtn.click();
 	}
 	
