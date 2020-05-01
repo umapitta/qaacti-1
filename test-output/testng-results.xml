@@ -1,29 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31136" started-at="2020-05-01T01:09:11Z" finished-at="2020-05-01T01:09:43Z">
+  <suite name="Suite" duration-ms="114471" started-at="2020-05-01T02:39:17Z" finished-at="2020-05-01T02:41:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31136" started-at="2020-05-01T01:09:11Z" finished-at="2020-05-01T01:09:43Z">
+    <test name="Test" duration-ms="114471" started-at="2020-05-01T02:39:17Z" finished-at="2020-05-01T02:41:11Z">
       <class name="com.acti.Testcase.TestDeleteCustomer">
-        <test-method status="PASS" signature="preClass()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@7d417077]" name="preClass" is-config="true" duration-ms="306" started-at="2020-05-01T06:39:11Z" finished-at="2020-05-01T06:39:12Z">
+        <test-method status="PASS" signature="preClass()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@5a39699c]" name="preClass" is-config="true" duration-ms="0" started-at="2020-05-01T08:10:43Z" finished-at="2020-05-01T08:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preClass -->
-        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@7d417077]" name="preTest" is-config="true" duration-ms="15614" started-at="2020-05-01T06:39:12Z" finished-at="2020-05-01T06:39:27Z">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@5a39699c]" name="preTest" is-config="true" duration-ms="14938" started-at="2020-05-01T08:10:43Z" finished-at="2020-05-01T08:10:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTest -->
-        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@7d417077]" name="createCustomer" duration-ms="14447" started-at="2020-05-01T06:39:27Z" finished-at="2020-05-01T06:39:42Z">
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@5a39699c]" name="createCustomer" duration-ms="12904" started-at="2020-05-01T08:10:58Z" finished-at="2020-05-01T08:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@7d417077]" name="tearDown" is-config="true" duration-ms="754" started-at="2020-05-01T06:39:42Z" finished-at="2020-05-01T06:39:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.TestDeleteCustomer@5a39699c]" name="tearDown" is-config="true" duration-ms="725" started-at="2020-05-01T08:11:11Z" finished-at="2020-05-01T08:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.acti.Testcase.TestDeleteCustomer -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.acti.Testcase.TestCreateCustomer">
+        <test-method status="PASS" signature="preClass()[pri:0, instance:com.acti.Testcase.TestCreateCustomer@2c8d66b2]" name="preClass" is-config="true" duration-ms="0" started-at="2020-05-01T08:10:19Z" finished-at="2020-05-01T08:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preClass -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.TestCreateCustomer@2c8d66b2]" name="preTest" is-config="true" duration-ms="14141" started-at="2020-05-01T08:10:19Z" finished-at="2020-05-01T08:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.acti.Testcase.TestCreateCustomer@2c8d66b2]" name="createCustomer" duration-ms="8662" started-at="2020-05-01T08:10:33Z" finished-at="2020-05-01T08:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.TestCreateCustomer@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1076" started-at="2020-05-01T08:10:42Z" finished-at="2020-05-01T08:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.acti.Testcase.TestCreateCustomer -->
+      <class name="com.acti.Testcase.LoginPageTest">
+        <test-method status="PASS" signature="preClass()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="preClass" is-config="true" duration-ms="243" started-at="2020-05-01T08:09:17Z" finished-at="2020-05-01T08:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preClass -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="preTest" is-config="true" duration-ms="15417" started-at="2020-05-01T08:09:17Z" finished-at="2020-05-01T08:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testVerifyActiLogo()[pri:1, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="testVerifyActiLogo" duration-ms="68" started-at="2020-05-01T08:09:33Z" finished-at="2020-05-01T08:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyActiLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-05-01T08:09:33Z" finished-at="2020-05-01T08:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="preTest" is-config="true" duration-ms="13885" started-at="2020-05-01T08:09:33Z" finished-at="2020-05-01T08:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testLoginPageTitle()[pri:2, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="testLoginPageTitle" duration-ms="7" started-at="2020-05-01T08:09:47Z" finished-at="2020-05-01T08:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-05-01T08:09:47Z" finished-at="2020-05-01T08:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="preTest" is-config="true" duration-ms="14397" started-at="2020-05-01T08:09:48Z" finished-at="2020-05-01T08:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testValidateLoginFunction()[pri:3, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="testValidateLoginFunction" duration-ms="484" started-at="2020-05-01T08:10:02Z" finished-at="2020-05-01T08:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="679" started-at="2020-05-01T08:10:03Z" finished-at="2020-05-01T08:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="preTest" is-config="true" duration-ms="14301" started-at="2020-05-01T08:10:04Z" finished-at="2020-05-01T08:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testValidateLoginFunction1()[pri:4, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="testValidateLoginFunction1" duration-ms="479" started-at="2020-05-01T08:10:18Z" finished-at="2020-05-01T08:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginFunction1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.acti.Testcase.LoginPageTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-05-01T08:10:18Z" finished-at="2020-05-01T08:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.acti.Testcase.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

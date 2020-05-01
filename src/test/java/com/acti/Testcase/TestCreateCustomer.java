@@ -1,13 +1,9 @@
 package com.acti.Testcase;
 
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.Status;
 
-
-
 public class TestCreateCustomer extends BaseTest {
-	
 	
 	@Test
 	public void createCustomer()
