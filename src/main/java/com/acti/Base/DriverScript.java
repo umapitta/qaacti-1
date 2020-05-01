@@ -37,6 +37,7 @@ public class DriverScript {
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "./actiBrowsers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver=new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("firefox"))

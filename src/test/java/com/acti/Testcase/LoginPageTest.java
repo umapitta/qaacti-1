@@ -17,7 +17,7 @@ public class LoginPageTest extends BaseTest {
 	@Test(priority=1)
 	public void testVerifyActiLogo()
 	{
-		boolean flag = lp.verifyActiLogo();
+		boolean flag = loginPage.verifyActiLogo();
 		Assert.assertTrue(flag);
 	}
 	
@@ -25,20 +25,20 @@ public class LoginPageTest extends BaseTest {
 	public void testLoginPageTitle()
 	{
 	
-		String title = lp.verifyLoginPageTitle();
+		String title = loginPage.verifyLoginPageTitle();
 		Assert.assertEquals("actiTIME - Login", title);
 	}
 	
 	@Test(priority=3)
 	public void testValidateLoginFunction()
 	{
-		lp.validateLogin("admin", "manager");
+		loginPage.validateLogin("admin", "manager");
 	}
 	
 	@Test(priority=4)
 	public void testValidateLoginFunction1()
 	{
-		lp.validateLogin(prop.getProperty("username"), prop.getProperty("password"));
+		loginPage.validateLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
 }
